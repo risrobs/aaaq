@@ -27,3 +27,12 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+.custom-size{
+    height:150px;
+    width:600px;  
+    border: 1px solid red;
+ }
+
+ #coupon-container:hover   div[id^='coupon']:not(:hover) {
+     display: none;  
+ }
